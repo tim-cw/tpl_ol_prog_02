@@ -1,0 +1,25 @@
+/* ==========================================================================
+   HEADINGS / ELEMENT
+   ========================================================================== */
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-secondary);
+    line-height: 1.1;
+    font-weight: bold;
+    margin: 0;
+}
+
+h1 {
+    font-size: var(--font-size-h1);
+    line-height: 1;
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+}
+
+h3 {
+    font-size: var(--font-size-h2);
+}
