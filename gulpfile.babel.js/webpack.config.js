@@ -28,20 +28,6 @@ const webpackConfig = {
     rules: [],
   },
 
-  optimization: {
-    nodeEnv: false,
-    splitChunks: {
-      minSize: 0,
-      cacheGroups: {
-        vendor: {
-          test: /[\\/]node_modules[\\/]/,
-          name: 'vendors',
-          chunks: 'all',
-        },
-      },
-    },
-  },
-
   plugins: [
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('production'),
