@@ -1,6 +1,6 @@
 {
   "name": "timtools",
-  "version": "1.5.x",
+  "version": "1.5.x.",
   "private": true,
   "type": "module",
   "description": "Stack de développement frontend",
